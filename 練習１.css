@@ -1,0 +1,157 @@
+
+@charset "UTF-8";
+
+html{
+  font-size: 100%;
+}
+body{
+    color: #383e45;
+    font-size: 0.9re;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+.site-title{
+    width: 120px;
+    line-height: 1px;
+    padding: 10px 0;
+}
+.site-title a{
+    display: block;
+}
+.section-title{
+display: inline-block;
+font-size: 2rem;
+/*テキストを中央揃えにする↓*/
+text-align: center;
+margin-bottom: 60px;
+/*下線の指定　↓*/
+border-bottom: solid 1px #383e45;
+
+}
+/*各コンテンツのタイトルに対して↓*/
+.contents-title{
+font-size: 1ren;
+margin: 10px 0;
+}
+/*メインコンテンツ全体に対して↓*/
+.wapper{
+    max-width: 960px;
+    /*マージンは上右下左の順に指定*/
+    margin: 0 auto 100px auto;
+    padding: 0 4%;
+    text-align: center;
+}
+#header{
+  display: flex;
+/*フレックスアイテムを<header>要素の両脇に寄せる指定↓*/
+  justify-content: space-between;
+ /*フレックスアイテムを中央揃えにするように指定↓*/
+ align-items: center;
+/*<header>要素を水平高方向に中央揃えにするために上下の余白を０、左右方向の余白を自動で設定することを指定↓*/
+text-align: 0 auto;
+height: 60px;
+}
+
+#header ul{
+    display: flex;
+   padding: 10px 0;
+  }
+  #header li{
+    margin-left: 30px;
+  }
+
+#header li a{
+    color: #24292e;
+}
+  /*ヘッダーのリンク上にマウスを置いたときに適応されるスタイルを指定している。
+   opacityはプロパティで要素の不透明度を設定する*/
+  #header li a :hover{
+opacity: 0 7;
+  }
+  /*コンテンツのクラスをもつ要素に対して縦に並べるレイアウトを指定する*/
+
+#about .wapper{
+    width: 960px;
+    padding: 0 4%;
+    margin: 0 auto 100px auto;
+    text-align: center;
+}
+.site-title{
+    list-style: 1px;
+    padding: 10px 0;
+}
+section{
+    display: block;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+/*ここからメインビジュアル*/
+#Mainvisual{
+    margin-bottom: 80px;
+}
+#Mainvisual img{
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover;
+}
+img{
+    border-style: none;
+}
+section{
+    display: block;
+}
+
+
+/*ここからabout*/
+#about .contents{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+#about .contents-title{
+    text-align: left;
+}
+
+#about img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+div{
+    display: block;
+}
+
+/*バイク*/
+#bicycle ul{
+display: flex;
+justify-content: space-between;
+}
+#bicycle li{
+    width: 32%;
+}
+
+/*ここからフッター*/
+#footer {
+    font-size: 0.5rem;
+    padding: 10px 0;
+    text-align: center;
+}
+footer{
+    display: block;
+}
+
